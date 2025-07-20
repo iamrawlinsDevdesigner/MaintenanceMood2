@@ -1,3 +1,4 @@
+
 /* Loader overlay */
 #page-loader {
     position: fixed;
@@ -5,7 +6,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: #ffffff; /* Or your brand color */
+    background: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,24 +14,24 @@
     transition: opacity 0.5s ease;
 }
 
-/* Logo animation */
+/* Logo pulse animation */
 #loader-logo {
-    width: 50px; /* Adjust size */
+    width: 120px;
     height: auto;
-    animation: pulseRotate 2s ease-in-out infinite;
+    animation: pulse 1.5s ease-in-out infinite;
 }
 
-@keyframes pulseRotate {
+@keyframes pulse {
     0% {
-        transform: scale(1) rotate(0deg);
+        transform: scale(1);
         opacity: 1;
     }
     50% {
-        transform: scale(1.1) rotate(180deg);
+        transform: scale(1.1);
         opacity: 0.8;
     }
     100% {
-        transform: scale(1) rotate(360deg);
+        transform: scale(1);
         opacity: 1;
     }
 }
