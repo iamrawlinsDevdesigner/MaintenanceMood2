@@ -13,7 +13,12 @@
     <form action="../../controllers/AuthController.php" method="POST">
         <input type="text" name="username" placeholder="Username" required><br><br>
         <input type="password" name="password" placeholder="Password" required><br><br>
-        <button type="submit">Login</button>
+        <button type="submit" id="loginBtn" class="btn">
+            <span id="btnText">Login</span>
+            <span id="btnSpinner" class="spinner hidden"></span>
+        </button>
+
     </form>
+     <script src=" ../../assets/js/script.js"></script>
 </body>
 </html>
