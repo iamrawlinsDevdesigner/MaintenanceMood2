@@ -15,6 +15,12 @@ $currentMode = $result->fetch_assoc()['mode'];
     <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 <body>
+
+<!-- Page Loader -->
+<div id="page-loader">
+    <div class="spinner"></div>
+</div>
+
     <h1>Admin Dashboard</h1>
     <p>Current Mode: <strong><?php echo strtoupper($currentMode); ?></strong></p>
 
@@ -31,5 +37,8 @@ $currentMode = $result->fetch_assoc()['mode'];
     </form>
 
     <p><a href="logout.php">Logout</a></p>
+    
+    <script src=" ../../assets/js/script.js"></script>
+
 </body>
 </html>
