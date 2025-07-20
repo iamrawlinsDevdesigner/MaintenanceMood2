@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($result && $row = $result->fetch_assoc()) {
         if (hash('sha256', $password) === $row['password']) {
             $_SESSION['admin_logged_in'] = true;
-            header('Location: ../views/admin/dashboard.php');
+            header('Location: ../views/admin/dashboard');
             exit();
         }
     }
