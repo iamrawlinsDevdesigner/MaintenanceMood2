@@ -4,5 +4,5 @@ window.addEventListener('load', function () {
     loader.style.opacity = '0';
     setTimeout(() => {
         loader.style.display = 'none';
-    }, 500); // Wait for fade-out transition
+    }, 500); // Matches CSS transition
 });

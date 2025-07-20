@@ -6,10 +6,11 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <!-- Page Loader -->
+ <!-- Page Loader -->
 <div id="page-loader">
-    <div class="spinner"></div>
+    <img src="../assets/logo.png" alt="Site Logo" id="loader-logo">
 </div>
+
 
     <div class="maintenance">
         <h1>🚧 Under Maintenance</h1>

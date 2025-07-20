@@ -18,8 +18,9 @@ $currentMode = $result->fetch_assoc()['mode'];
 
 <!-- Page Loader -->
 <div id="page-loader">
-    <div class="spinner"></div>
+    <img src="../../assets/logo.png" alt="Site Logo" id="loader-logo">
 </div>
+
 
     <h1>Admin Dashboard</h1>
     <p>Current Mode: <strong><?php echo strtoupper($currentMode); ?></strong></p>

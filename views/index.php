@@ -10,15 +10,13 @@
 </head>
 <body>
 
-<!-- Page Loader -->
-<div id="page-loader">
-    <div class="spinner"></div>
-</div>
+
+
 
     <h1>Welcome to the Website</h1>
     <p>This page only loads if the site is in live mode.</p>
 
-    <script src="../assets/js/script.js"></script>
+    
 
 </body>
 </html>
